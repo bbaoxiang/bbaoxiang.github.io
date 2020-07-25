@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bbaoxiang.github.io/"/>
-  <updated>2020-05-12T01:30:43.032Z</updated>
+  <updated>2020-07-25T06:37:28.625Z</updated>
   <id>https://bbaoxiang.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS样式</title>
+    <link href="https://bbaoxiang.github.io/2020/07/25/CSS%E6%A0%B7%E5%BC%8F/"/>
+    <id>https://bbaoxiang.github.io/2020/07/25/CSS样式/</id>
+    <published>2020-07-25T05:31:53.000Z</published>
+    <updated>2020-07-25T06:37:28.625Z</updated>
+    
+    <summary type="html">
+    
+      hexo-sakura主题使用教程
+    
+    </summary>
+    
+      <category term="技术" scheme="https://bbaoxiang.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="https://bbaoxiang.github.io/tags/web/"/>
+    
+      <category term="悦读" scheme="https://bbaoxiang.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -32,6 +54,98 @@
           &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网上资源笔记</title>
+    <link href="https://bbaoxiang.github.io/2019/09/08/%E7%BD%91%E4%B8%8A%E8%B5%84%E6%BA%90%E7%AC%94%E8%AE%B0/"/>
+    <id>https://bbaoxiang.github.io/2019/09/08/网上资源笔记/</id>
+    <published>2019-09-08T01:52:43.000Z</published>
+    <updated>2019-09-08T01:58:42.899Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.sxt.cn/Java_jQuery_in_action/History_Direction.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JVM内存分配与使用</title>
+    <link href="https://bbaoxiang.github.io/2019/07/24/JVM%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>https://bbaoxiang.github.io/2019/07/24/JVM内存分配与使用/</id>
+    <published>2019-07-24T12:44:45.000Z</published>
+    <updated>2019-07-24T13:21:23.610Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;今天看了关于JVM内存分配与使用的课程，做一下笔记：&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于maven无法下载依赖包</title>
+    <link href="https://bbaoxiang.github.io/2019/07/14/%E5%85%B3%E4%BA%8Emaven%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85/"/>
+    <id>https://bbaoxiang.github.io/2019/07/14/关于maven无法下载依赖包/</id>
+    <published>2019-07-14T11:26:25.000Z</published>
+    <updated>2019-07-14T11:35:56.506Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt; 
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Day-02</title>
+    <link href="https://bbaoxiang.github.io/2019/07/05/Day-02/"/>
+    <id>https://bbaoxiang.github.io/2019/07/05/Day-02/</id>
+    <published>2019-07-04T23:58:31.000Z</published>
+    <updated>2019-07-05T00:59:27.630Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天记录一下昨天碰到的坑：&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Day-01</title>
+    <link href="https://bbaoxiang.github.io/2019/07/04/Spring-01/"/>
+    <id>https://bbaoxiang.github.io/2019/07/04/Spring-01/</id>
+    <published>2019-07-04T00:33:00.000Z</published>
+    <updated>2019-07-05T00:55:49.628Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天校内实习第一天，有些笔记要写一下：&lt;br&gt;
     
     </summary>
     
