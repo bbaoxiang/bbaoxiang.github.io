@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">SQL | bx</title>
+  <title itemprop="name">常用SQL | bx</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -403,7 +403,7 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
           <header class="entry-header">
-            <h1 class="entry-title">SQL</h1>
+            <h1 class="entry-title">常用SQL</h1>
             <p class="entry-census">bx&nbsp;·&nbsp;2020-11-6&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
@@ -416,6 +416,30 @@
 <pre><code>(select * from TBLPRDPRODUCTBASIS where ISSUESTATE=&#39;0&#39; and ProductNO like &#39;10%&#39; )
 union all
 (select * from TBLPRDPRODUCTBASIS where ISSUESTATE=&#39;0&#39; and ProductNO like &#39;11%&#39; )
+</code></pre><ul>
+<li>删除主键：</li>
+</ul>
+<pre><code>ALTER TABLE TBLOPQCREASONDETAIL DROP PK_TBLOPQCREASONDETAIL
+</code></pre><ul>
+<li>修改不能为空：</li>
+</ul>
+<pre><code>alter table TBLOPQCREASONDETAIL alter column REASONNAME varchar(50) not null
+</code></pre><ul>
+<li>新增主键：</li>
+</ul>
+<pre><code>ALTER Table TBLOPQCREASONDETAIL ADD CONSTRAINT PK_TBLOPQCREASONDETAIL PRIMARY KEY (OPNO,REASONNO,REASONNAME,PRODUCTNO,PRODUCTVERSION)
+</code></pre><ul>
+<li>查询主键名称：</li>
+</ul>
+<pre><code>Select Name from sysobjects where Parent_Obj=OBJECT_ID(&#39;tblWIPFirstCheckDetail&#39;) and xtype=&#39;PK&#39;
+</code></pre><ul>
+<li>删除主键：</li>
+</ul>
+<pre><code>ALTER TABLE tblWIPFirstCheckDetail DROP PK_TBLWIPFIRSTCHECKDETAIL
+</code></pre><ul>
+<li>删除表中数据：</li>
+</ul>
+<pre><code>DELETE FROM tblWIPFirstCheckDetail
 </code></pre>
         </div>
         <!-- .entry-content -->
