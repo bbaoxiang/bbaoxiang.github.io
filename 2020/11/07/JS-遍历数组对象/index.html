@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">h5笔记 | bx</title>
+  <title itemprop="name">JS 遍历数组对象 | bx</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -403,14 +403,31 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
           <header class="entry-header">
-            <h1 class="entry-title">h5笔记</h1>
-            <p class="entry-census">bx&nbsp;·&nbsp;2020-7-27&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+            <h1 class="entry-title">JS 遍历数组对象</h1>
+            <p class="entry-census">bx&nbsp;·&nbsp;2020-11-7&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
           </header>
         
         <div class="entry-content">
-          <h3 id="h5笔记"><a href="#h5笔记" class="headerlink" title="h5笔记"></a><a href="https://blog.csdn.net/wuyxinu/article/details/103515157" target="_blank" rel="noopener">h5笔记</a></h3>
+          <h3 id="Angular-JS-遍历数组对象"><a href="#Angular-JS-遍历数组对象" class="headerlink" title="Angular JS 遍历数组对象:"></a>Angular JS 遍历数组对象:</h3><ul>
+<li>function：</li>
+</ul>
+<pre><code> function checkIsRepeat(){
+                    var isRepeat = false;
+                    user_list.forEach(item =&gt; {
+                        if (item.owner_no == selected.page_no) {
+                            isRepeat = true; 
+                        }
+                    });
+                    return isRepeat;
+                }
+</code></pre><ul>
+<li>调用：</li>
+</ul>
+<pre><code> if(checkIsRepeat()){  ...  }                      
+
+</code></pre>
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -441,7 +458,7 @@
           
             <div class="post-nepre half previous">
           
-            <a href="/2020/08/07/Sourcetree/" rel="prev">
+            <a href="/2020/11/07/JS-过滤器/" rel="prev">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
@@ -449,7 +466,7 @@
               Previous Post</span>
               <div class="info">
                 <h3>
-                Sourcetree</h3>
+                JS 过滤器</h3>
                 <hr>
               </div>
             </a>
@@ -459,15 +476,15 @@
           
             <div class="post-nepre half next">
           
-            <a href="/2020/07/25/CSS样式/" rel="next">
+            <a href="/2020/11/06/SQL/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                CSS样式</h3>
+                SQL</h3>
                 <hr>
               </div>
             </a>
