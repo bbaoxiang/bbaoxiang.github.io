@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bbaoxiang.github.io/"/>
-  <updated>2020-11-07T02:55:09.937Z</updated>
+  <updated>2020-11-09T11:45:57.124Z</updated>
   <id>https://bbaoxiang.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>案例SQL1:工艺流程绑定</title>
+    <link href="https://bbaoxiang.github.io/2020/11/09/%E6%A1%88%E4%BE%8BSQL1-%E5%B7%A5%E8%89%BA%E6%B5%81%E7%A8%8B%E7%BB%91%E5%AE%9A/"/>
+    <id>https://bbaoxiang.github.io/2020/11/09/案例SQL1-工艺流程绑定/</id>
+    <published>2020-11-09T11:37:36.000Z</published>
+    <updated>2020-11-09T11:45:57.124Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sql server的dblink配置</title>
+    <link href="https://bbaoxiang.github.io/2020/11/09/sql-server%E7%9A%84dblink/"/>
+    <id>https://bbaoxiang.github.io/2020/11/09/sql-server的dblink/</id>
+    <published>2020-11-09T11:28:25.000Z</published>
+    <updated>2020-11-09T11:35:01.672Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;实现效果：在mes数据库中查询erp库的数据&quot;&gt;&lt;a href=&quot;#实现效果：在mes数据库中查询erp库的数据&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>SQL日期函数</title>
@@ -406,44 +450,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Day-01</title>
-    <link href="https://bbaoxiang.github.io/2019/07/04/Spring-01/"/>
-    <id>https://bbaoxiang.github.io/2019/07/04/Spring-01/</id>
-    <published>2019-07-04T00:33:00.000Z</published>
-    <updated>2019-07-05T00:55:49.628Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨天校内实习第一天，有些笔记要写一下：&lt;br&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://bbaoxiang.github.io/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>https://bbaoxiang.github.io/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2020-03-16T10:41:30.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://bbaoxiang.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://bbaoxiang.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://bbaoxiang.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
