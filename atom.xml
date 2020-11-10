@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bbaoxiang.github.io/"/>
-  <updated>2020-11-09T11:45:57.124Z</updated>
+  <updated>2020-11-10T02:19:33.112Z</updated>
   <id>https://bbaoxiang.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VB 案例1：执行查询并对结果遍历</title>
+    <link href="https://bbaoxiang.github.io/2020/11/10/VB-%E6%A1%88%E4%BE%8B1%EF%BC%9A%E6%89%A7%E8%A1%8C%E6%9F%A5%E8%AF%A2%E5%B9%B6%E5%AF%B9%E7%BB%93%E6%9E%9C%E9%81%8D%E5%8E%86/"/>
+    <id>https://bbaoxiang.github.io/2020/11/10/VB-案例1：执行查询并对结果遍历/</id>
+    <published>2020-11-10T02:13:49.000Z</published>
+    <updated>2020-11-10T02:19:33.112Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明:&quot;&gt;&lt;/a&gt;说明:&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;执行sql，查询数据，并将结果放入datatable；&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  Dim strSQL As
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>案例SQL1:工艺流程绑定</title>
@@ -431,22 +455,6 @@
           &lt;p&gt; 
         
       
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Day-02</title>
-    <link href="https://bbaoxiang.github.io/2019/07/05/Day-02/"/>
-    <id>https://bbaoxiang.github.io/2019/07/05/Day-02/</id>
-    <published>2019-07-04T23:58:31.000Z</published>
-    <updated>2019-07-05T00:59:27.630Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天记录一下昨天碰到的坑：&lt;br&gt;
     
     </summary>
     
