@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bbaoxiang.github.io/"/>
-  <updated>2020-11-12T08:17:42.121Z</updated>
+  <updated>2020-11-13T09:24:42.475Z</updated>
   <id>https://bbaoxiang.github.io/</id>
   
   <author>
@@ -17,11 +17,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>c# list 转string</title>
+    <link href="https://bbaoxiang.github.io/2020/11/13/c-list-%E8%BD%ACstring/"/>
+    <id>https://bbaoxiang.github.io/2020/11/13/c-list-转string/</id>
+    <published>2020-11-13T09:23:54.000Z</published>
+    <updated>2020-11-13T09:24:42.475Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;list-转-string&quot;&gt;&lt;a href=&quot;#list-转-string&quot; class=&quot;headerlink&quot; title=&quot;list 转 string&quot;&gt;&lt;/a&gt;list 转 string&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;   public string
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>c#字符串-时间转换</title>
+    <link href="https://bbaoxiang.github.io/2020/11/13/c-%E5%AD%97%E7%AC%A6%E4%B8%B2-%E6%97%B6%E9%97%B4%E8%BD%AC%E6%8D%A2/"/>
+    <id>https://bbaoxiang.github.io/2020/11/13/c-字符串-时间转换/</id>
+    <published>2020-11-13T09:20:04.000Z</published>
+    <updated>2020-11-13T09:23:15.619Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;字符串-时间转换&quot;&gt;&lt;a href=&quot;#字符串-时间转换&quot; class=&quot;headerlink&quot; title=&quot;字符串-时间转换&quot;&gt;&lt;/a&gt;字符串-时间转换&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;已有字符串格式类型：2020/9/7
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>scrollbar</title>
     <link href="https://bbaoxiang.github.io/2020/11/12/scrollbar/"/>
     <id>https://bbaoxiang.github.io/2020/11/12/scrollbar/</id>
     <published>2020-11-12T06:53:27.000Z</published>
-    <updated>2020-11-12T08:17:42.121Z</updated>
+    <updated>2020-11-13T09:19:14.983Z</updated>
     
     <summary type="html">
     
@@ -416,50 +461,6 @@
         
           &lt;p&gt;###Sourcetree推送&lt;/p&gt;
 &lt;p&gt;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CSS样式</title>
-    <link href="https://bbaoxiang.github.io/2020/07/25/CSS%E6%A0%B7%E5%BC%8F/"/>
-    <id>https://bbaoxiang.github.io/2020/07/25/CSS样式/</id>
-    <published>2020-07-25T05:31:53.000Z</published>
-    <updated>2020-07-25T06:37:28.625Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://bbaoxiang.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://bbaoxiang.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://bbaoxiang.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://bbaoxiang.github.io/2020/05/12/hello-world/"/>
-    <id>https://bbaoxiang.github.io/2020/05/12/hello-world/</id>
-    <published>2020-05-12T01:30:43.032Z</published>
-    <updated>2020-05-12T01:30:43.032Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
     
