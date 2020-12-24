@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">c# list 转string | bx</title>
+  <title itemprop="name">Angular JS 数组操作 | bx</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -403,30 +403,96 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
           <header class="entry-header">
-            <h1 class="entry-title">c# list 转string</h1>
-            <p class="entry-census">bx&nbsp;·&nbsp;2020-11-13&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+            <h1 class="entry-title">Angular JS 数组操作</h1>
+            <p class="entry-census">bx&nbsp;·&nbsp;2020-12-20&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
           </header>
         
         <div class="entry-content">
-          <h3 id="list-转-string"><a href="#list-转-string" class="headerlink" title="list 转 string"></a>list 转 string</h3><pre><code>   public string ListToString(List&lt;string&gt; list)
-        {
-            string resultStr = &quot;&quot;;
-            foreach (string item in list)
-            {
-                if (string.IsNullOrWhiteSpace(resultStr))
-                {
-                    resultStr += &quot;&#39;&quot; + item + &quot;&#39;&quot;;
-                }
-                else
-                {
-                    resultStr += &quot;, &quot;;
-                    resultStr += &quot;&#39;&quot; + item + &quot;&#39;&quot;;
-                }
-            }
-            return resultStr;
-        }
+          <h3 id="Angular-JS-数组操作"><a href="#Angular-JS-数组操作" class="headerlink" title="Angular JS 数组操作"></a>Angular JS 数组操作</h3><ul>
+<li>1.数组对象中每个数组增加属性：<ul>
+<li>实现：</li>
+</ul>
+</li>
+</ul>
+<pre><code>//目的
+ dataList:{                     dataList:{
+ [0]:{item_no:001},       ==&gt;   [0]:{item_no:001,item_name:产品1},
+ [1]:{item_no:002}        ==&gt;   [1]:{item_no:002,item_name:产品1}
+ }                              }
+
+ //操作    循环push增加属性
+  dialog.dataList.forEach(item=&gt;{
+                       item.product_name=dialog.product_name
+                               })
+
+</code></pre><ul>
+<li>2.数组对象中数组外增加属性：<ul>
+<li>实现：</li>
+</ul>
+</li>
+</ul>
+<pre><code>//目的
+ dataList:{                     dataList:{
+ [0]:{item_no:001},       ==&gt;   [0]:{item_no:001},
+ [1]:{item_no:002}        ==&gt;   [1]:{item_no:002}，
+                                item_name:产品001
+ }                              }
+
+ //操作    直接push属性
+   dialog.dataList.push({ item_name: item.item_name });
+
+</code></pre><ul>
+<li>3.数组对象中第一个数组前增加新的数组：<ul>
+<li>实现：</li>
+</ul>
+</li>
+</ul>
+<pre><code>//目的
+ dataList:{                     dataList:{
+                                [0]:{item_no:003}, 
+ [0]:{item_no:001},       ==&gt;   [1]:{item_no:001},
+ [1]:{item_no:002}        ==&gt;   [2]:{item_no:002}，
+ }                              }
+
+ //操作   unshift在前插入，push在后
+   dialog.dataList.unshift({code:&quot;5&quot;,have_reason:&quot;1&quot;,require_reason:&quot;0&quot;});
+
+</code></pre><ul>
+<li>4.数组对象筛选&amp;属性求和：<ul>
+<li>实现：</li>
+</ul>
+</li>
+</ul>
+<pre><code>//目的 计算datalist中records为合格或者空，statu为1下的weight、meter各自的和
+ dataList:{                                            
+ [0]:{records:&#39;合格&#39;,  status:1,weight:&#39;1.1&#39;, meter:&#39;2.1&#39;,},     
+ [1]:{records:&#39;合格&#39;,  status:0,weight:&#39;1.2&#39;, meter:&#39;2.2&#39;,}，  
+ [2]:{records:&#39;&#39;    ,  status:1,weight:&#39;1.3&#39;, meter:&#39;2.3&#39;,}，
+ [3]:{records:&#39;隔离&#39;,  status:1,weight:&#39;1.4&#39;, meter:&#39;2.4&#39;,}，
+ [4]:{records:&#39;不合格&#39;,status:1,weight:&#39;1.5&#39; ,meter:&#39;2.5&#39;,}，
+ }                           
+
+ //一、先筛选出records为合格或者空，statu为1的数组
+let temp_sumList=dialog.selectList.filter(s=&gt; s.records==&quot;&quot; || s.records==&quot;合格&quot; &amp;&amp; s.status == 1);
+
+//二、分别将weight和meter取出来转换类型组成数组
+ let sumList1=temp_sumList.map(s =&gt; parseFloat(s.weight));
+ let sumList2=temp_sumList.map(s =&gt; parseFloat(s.meter));
+
+ //三、防呆并求和
+if (temp_sumList.length &gt; 0) { 
+dialog.switch_shift.sumQty = sumList1.reduce((sum, w) =&gt; sum + w).toFixed(2);
+dialog.switch_shift.sumYield = sumList2.reduce((sum, w) =&gt; sum + w).toFixed(2);
+} else {
+      dialog.switch_shift.sumQty = &quot;0.00&quot;;
+      dialog.switch_shift.sumYield = &quot;0.00&quot;;
+ }
+
+ //在第一步和第二步可以合并：
+let sumList1=dialog.selectList.filter(s=&gt; s.records==&quot;&quot; || s.records==&quot;合格&quot; &amp;&amp; s.status1 == 0).map(s =&gt; parseFloat(s.weight));
+
 </code></pre>
         </div>
         <!-- .entry-content -->
@@ -458,7 +524,7 @@
           
             <div class="post-nepre half previous">
           
-            <a href="/2020/12/20/Angular-JS-数组操作/" rel="prev">
+            <a href="/2020/12/24/js-时间操作/" rel="prev">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
@@ -466,7 +532,7 @@
               Previous Post</span>
               <div class="info">
                 <h3>
-                Angular JS 数组操作</h3>
+                js 时间操作</h3>
                 <hr>
               </div>
             </a>
@@ -476,7 +542,7 @@
           
             <div class="post-nepre half next">
           
-            <a href="/2020/11/13/c-字符串-时间转换/" rel="next">
+            <a href="/2020/11/13/c-list-转string/" rel="next">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
@@ -484,7 +550,7 @@
               Next Post</span>
               <div class="info">
                 <h3>
-                c#字符串-时间转换</h3>
+                c# list 转string</h3>
                 <hr>
               </div>
             </a>

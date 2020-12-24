@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bbaoxiang.github.io/"/>
-  <updated>2020-11-13T09:24:42.475Z</updated>
+  <updated>2020-12-24T03:22:30.796Z</updated>
   <id>https://bbaoxiang.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js 时间操作</title>
+    <link href="https://bbaoxiang.github.io/2020/12/24/js-%E6%97%B6%E9%97%B4%E6%93%8D%E4%BD%9C/"/>
+    <id>https://bbaoxiang.github.io/2020/12/24/js-时间操作/</id>
+    <published>2020-12-24T03:16:57.000Z</published>
+    <updated>2020-12-24T03:22:30.796Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;js-时间操作&quot;&gt;&lt;a href=&quot;#js-时间操作&quot; class=&quot;headerlink&quot; title=&quot;js 时间操作&quot;&gt;&lt;/a&gt;js 时间操作&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;获取当前时间第一种方法：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;var
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Angular JS 数组操作</title>
+    <link href="https://bbaoxiang.github.io/2020/12/20/Angular-JS-%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C/"/>
+    <id>https://bbaoxiang.github.io/2020/12/20/Angular-JS-数组操作/</id>
+    <published>2020-12-20T14:07:37.000Z</published>
+    <updated>2020-12-20T15:04:56.995Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Angular-JS-数组操作&quot;&gt;&lt;a href=&quot;#Angular-JS-数组操作&quot; class=&quot;headerlink&quot; title=&quot;Angular JS 数组操作&quot;&gt;&lt;/a&gt;Angular JS
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>c# list 转string</title>
@@ -415,52 +462,6 @@
         
           &lt;h3 id=&quot;工作路径总结&quot;&gt;&lt;a href=&quot;#工作路径总结&quot; class=&quot;headerlink&quot; title=&quot;工作路径总结&quot;&gt;&lt;/a&gt;工作路径总结&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;MES开发dll文件放置  
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>WinForm开发笔记</title>
-    <link href="https://bbaoxiang.github.io/2020/08/17/WinForm%E6%9C%89%E5%85%B3/"/>
-    <id>https://bbaoxiang.github.io/2020/08/17/WinForm有关/</id>
-    <published>2020-08-17T11:07:10.000Z</published>
-    <updated>2020-08-18T02:38:40.867Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h5 id=&quot;WinForm开发流程&quot;&gt;&lt;a href=&quot;#WinForm开发流程&quot; class=&quot;headerlink&quot; title=&quot;WinForm开发流程&quot;&gt;&lt;/a&gt;WinForm开发流程&lt;/h5&gt;&lt;hr&gt;
-&lt;h6 id=&quot;一-建立本地开发和测试环境&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Sourcetree</title>
-    <link href="https://bbaoxiang.github.io/2020/08/07/Sourcetree/"/>
-    <id>https://bbaoxiang.github.io/2020/08/07/Sourcetree/</id>
-    <published>2020-08-07T02:49:21.000Z</published>
-    <updated>2020-08-07T02:52:48.649Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;###Sourcetree推送&lt;/p&gt;
-&lt;p&gt;
         
       
     

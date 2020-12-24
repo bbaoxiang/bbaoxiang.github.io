@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">c# list 转string | bx</title>
+  <title itemprop="name">js 时间操作 | bx</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -403,30 +403,32 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
           <header class="entry-header">
-            <h1 class="entry-title">c# list 转string</h1>
-            <p class="entry-census">bx&nbsp;·&nbsp;2020-11-13&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+            <h1 class="entry-title">js 时间操作</h1>
+            <p class="entry-census">bx&nbsp;·&nbsp;2020-12-24&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
           </header>
         
         <div class="entry-content">
-          <h3 id="list-转-string"><a href="#list-转-string" class="headerlink" title="list 转 string"></a>list 转 string</h3><pre><code>   public string ListToString(List&lt;string&gt; list)
-        {
-            string resultStr = &quot;&quot;;
-            foreach (string item in list)
-            {
-                if (string.IsNullOrWhiteSpace(resultStr))
-                {
-                    resultStr += &quot;&#39;&quot; + item + &quot;&#39;&quot;;
-                }
-                else
-                {
-                    resultStr += &quot;, &quot;;
-                    resultStr += &quot;&#39;&quot; + item + &quot;&#39;&quot;;
-                }
-            }
-            return resultStr;
-        }
+          <h3 id="js-时间操作"><a href="#js-时间操作" class="headerlink" title="js 时间操作"></a>js 时间操作</h3><ul>
+<li>获取当前时间第一种方法：</li>
+</ul>
+<pre><code>var now=new Date();
+var time=now.getFullYear()+&quot;-&quot;+now.getMonth()+&quot;-&quot;+now.getDate()+&quot; &quot;+now.getHours()+&quot;:&quot;+now.getMinutes()+&quot;:&quot;+now.getSeconds();
+
+</code></pre><ul>
+<li>获取当前时间第二种方法：</li>
+</ul>
+<pre><code>var time = moment(new Date()).format(&quot;YYYY-MM-DD HH:mm:ss&quot;);
+
+</code></pre><ul>
+<li>其他时间处理：</li>
+</ul>
+<pre><code>var sdtime2 = sdtime1.setHours(sdtime1.getHours() -1)//1小时前
+var sdtime3=new Date().setDate((new Date().getDate()-7))//7天前
+var sdtime4=new Date().setMonth((new Date().getMonth()-1))//一个月前
+var sdtime5=new Date().setFullYear((new Date().getFullYear()-1))//一年前
+
 </code></pre>
         </div>
         <!-- .entry-content -->
@@ -455,28 +457,11 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/12/20/Angular-JS-数组操作/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                Angular JS 数组操作</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2020/11/13/c-字符串-时间转换/" rel="next">
+            <a href="/2020/12/20/Angular-JS-数组操作/" rel="next">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
@@ -484,7 +469,7 @@
               Next Post</span>
               <div class="info">
                 <h3>
-                c#字符串-时间转换</h3>
+                Angular JS 数组操作</h3>
                 <hr>
               </div>
             </a>
